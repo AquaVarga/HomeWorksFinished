@@ -1,0 +1,1 @@
+Amint vállalhatóak lesznek a munkáim(remélhetőleg erre ezen a héten sor kerül) megjelenítésre fognak kerülni itt
