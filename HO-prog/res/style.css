@@ -1,0 +1,172 @@
+body
+{
+	margin: 0;
+	padding: 0;
+    font-family: 'text', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #01011a;
+    
+}
+.inside
+{
+    width: 80%;
+    margin: auto;
+}
+header .inside
+{
+}
+header
+{    
+    background-color: #282a35;
+}
+header .titlebar
+{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px blue, 0px 0px 15px white;
+    border-bottom: 1px solid;
+    border-color: #5f6a7a;
+}
+header .interaction
+{
+    font-size: 20px;
+}
+header nav ul
+{
+
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-around;
+}
+header nav a
+{
+   
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px blue, 0px 0px 15px white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+nav a:hover
+{
+    background-color: rgb(13,23,33);
+    border-radius: 25px;
+}
+main .inside
+{
+    background-color: #282a35;
+    color: #d0d1f7;
+    padding: 7px;
+    padding-top: 3px;
+    text-align: center;
+}
+main
+{
+    margin-top: 15px;
+}
+main h1
+{
+    margin: auto;
+    margin-bottom: 5px;
+    width: 80%;
+    text-align: center;
+    background-color: #282a35;
+    color: #d0d1f7;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px #01011a, 0px 0px 5px white;
+    padding: 7px;
+}
+main h2
+{
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2px;
+   
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+table thead
+{
+    border-bottom: 1px solid;
+}
+table th,
+table td
+{
+    padding: 3px;
+    text-align: center;
+}
+table tbody tr:nth-child(odd)
+{
+    background-color: #01011a;
+}
+table td a
+{
+    text-decoration: none;
+
+}
+form
+{
+    
+    background-color: #8389a914;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 3px 6px #050720b5;
+}
+form label
+{
+}
+form input
+{
+    background-color: #0f1040;
+    color: inherit;
+}
+select
+{
+    background-color: #0f1040;
+    color: inherit;
+}
+main button
+{
+    padding: 6px 28px;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #282a35;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px blue, 0px 0px 15px white;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+main .button:hover
+{
+    background-color: rgb(13,23,33);
+}
+
+
+
+
+
+
+
+
+
+
