@@ -19,6 +19,11 @@ switch($page)
 	case "edit":
 		\Controller\PageController::Edit();
 		\Controller\InsertController::Update();
+		break;
+	case "del":
+		$id = \Model\Animalsmodel::getId();
+		\Model\Animalsmodel::DeleteAnimal($id);
+		\Controller\PageController::List();
 		
 }
 

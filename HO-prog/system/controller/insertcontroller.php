@@ -7,11 +7,13 @@ class InsertController
 	public static function Insert()
 	{
 		self::InsertRequest();
+		
 	}
 	public static function Update() 
 	{
 		$id = \Model\Animalsmodel::getId();
 		self::UpdateRequest($id);
+	
 	}
 	
 	private static function InsertRequest()
@@ -21,6 +23,8 @@ class InsertController
 		if($sent)
 		{
 			\Model\Animalsmodel::InsertAnimals();
+			\View\EditView::SuccessMessage("Rekord elmentve!", "Az adatok módosítása sikeresen megtörtént");
+			
 		}
 	}
 	private static function UpdateRequest($id)
@@ -30,6 +34,8 @@ class InsertController
 		if($sent)
 		{
 			\Model\Animalsmodel::UpdateAnimal($id);
+			\View\EditView::SuccessMessage("Változások elmentve!", "Az adatok módosítása sikeresen megtörtént");
+			
 		}
 	}
 }

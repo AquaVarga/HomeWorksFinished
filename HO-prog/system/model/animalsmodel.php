@@ -50,6 +50,17 @@ class Animalsmodel
 		
 		return $query;
 	}
+	public static function DeleteAnimal($id) 
+	{
+		$sql = "DELETE FROM animal WHERE id = :id";
+		$params = 
+				[
+					'id' => $id
+				];
+		$query = Database::Exec($sql, $params);
+		return $query;
+	}
+
 	public static function GetAnimalsByPref()
 	{
 		$sql = "SELECT * FROM animal";

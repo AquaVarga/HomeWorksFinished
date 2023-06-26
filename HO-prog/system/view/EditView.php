@@ -25,4 +25,18 @@ class EditView
 		$form->setValues($animal);
 		echo $form->asHtml();
 	}
+	public static function SuccessMessage($title, $text) 
+	{
+		echo '<div id="alert" class="alert alert-success">
+            	<i class="fa-solid fa-triangle-exclamation"></i>
+            	<strong>'. $title .'</strong> '. $text .'
+            </div>';
+		
+		//ez még kisérletezés alatt áll
+		echo `<script type="text/javascript">
+        setTimeout(function () {
+            $('#alert').alert('close');
+        }, 2000);</script>`;
+		
+	}
 }

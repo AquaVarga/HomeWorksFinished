@@ -3,13 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/D:/Tananyag/Ampps/www/HO-prog/system/view/newformview.php</file>
+            <file>file:/D:/Tananyag/Ampps/www/HO-prog/system/view/EditView.php</file>
             <file>file:/D:/Tananyag/Ampps/www/HO-prog/src/script.js</file>
-            <file>file:/D:/Tananyag/Ampps/www/HO-prog/system/view/SearchView.php</file>
-            <file>file:/D:/Tananyag/Ampps/www/HO-prog/system/req.php</file>
-            <file>file:/D:/Tananyag/Ampps/www/HO-prog/system/view/forms/inputform.php</file>
-            <file>file:/D:/Tananyag/Ampps/www/HO-prog/index.php</file>
-            <file>file:/D:/Tananyag/Ampps/www/HO-prog/system/model/database.php</file>
+            <file>file:/D:/Tananyag/Ampps/www/HO-prog/system/view/template/search.php</file>
+            <file>file:/D:/Tananyag/Ampps/www/HO-prog/src/style.css</file>
+            <file>file:/D:/Tananyag/Ampps/www/HO-prog/system/controller/insertcontroller.php</file>
             <file>file:/D:/Tananyag/Ampps/www/HO-prog/system/model/animalsmodel.php</file>
+            <file>file:/D:/Tananyag/Ampps/www/HO-prog/system/view/pageview.php</file>
         </group>
     </open-files>
 </project-private>
