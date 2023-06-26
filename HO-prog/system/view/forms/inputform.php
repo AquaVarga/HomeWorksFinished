@@ -64,7 +64,7 @@ class InputForm
 		{
 			$html .= $field->asHtml();
 		}
-		$html .= ('<button name="'. $this->btnName .'"class="button" value="1">'. $this->btnText .'</button></form>');
+		$html .= ('<button name="'. $this->btnName .'" value = "1" class="button">'. $this->btnText .'</button></form>');
 		
 		return $html;
 	}

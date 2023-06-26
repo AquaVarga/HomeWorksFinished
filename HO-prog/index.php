@@ -11,9 +11,15 @@ switch($page)
 		break;
 	case "new":
 		\Controller\PageController::New();
+		\Controller\InsertController::Insert();
 		break;
 	case "search":
 		\Controller\PageController::Search();
 		break;
+	case "edit":
+		\Controller\PageController::Edit();
+		\Controller\InsertController::Update();
+		
 }
-\Controller\InsertController::Insert();
+
+

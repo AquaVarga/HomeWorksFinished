@@ -13,7 +13,7 @@
 	                   <th>Színe</th>
 	                   <th>Neme</th>
 	                   <th>Ára</th>
-	                   <th>Elérhető</th>
+	                   <th>Születési dátum</th>
 	                   <th> </th>
 	               </tr>
 	           </thead>
@@ -30,58 +30,10 @@
 	                   <td>'. $anim->color .'</td>
 	                   <td>'. $anim->sex .'</td>
 	                   <td class="price">'. number_format($anim->price, 0, "", " ") .' HUF</td>
-	                   <td>'. $anim->available .'</td>
-	                   <td><a href="">Adatlap</a></td>
+	                   <td>'. $anim->date .'</td>
+	                   <td><a href="?page=edit&id='. $anim->id .'">Módosítás</a></td>
 					   </tr>';
 				   }
-               /*<tr>
-	                   <th>Gizella</th>
-	                   <td>Hörcsög</td>
-	                   <td>32 éves</td>
-	                   <td class="price">10 100 HUF</td>
-	                   <td>Elérhető</td>
-	                   <td><a href="">Adatlap</a></td>
-	               </tr>
-	                <tr>
-	                   <th>Róbert</th>
-	                   <td>Tengerimalac</td>
-	                   <td>6 éves</td>
-	                   <td class="price">15 100 HUF</td>
-	                   <td>Elérhető</td>
-	                   <td><a href="">Adatlap</a></td>
-	               </tr>
-	                <tr>
-	                   <th>Janka</th>
-	                   <td>Kígyó</td>
-	                   <td>2 éves</td>
-	                   <td class="price">101 100 HUF</td>
-	                   <td>Nem elérhető</td>
-	                   <td><a href="">Adatlap</a></td>
-	               </tr>
-	               <tr>
-	                   <th>Gizella</th>
-	                   <td>Hörcsög</td>
-	                   <td>32 éves</td>
-	                   <td class="price">10 100 HUF</td>
-	                   <td>Elérhető</td>
-	                   <td><a href="">Adatlap</a></td>
-	               </tr>
-	                <tr>
-	                   <th>Róbert</th>
-	                   <td>Tengerimalac</td>
-	                   <td>6 éves</td>
-	                   <td class="price">15 100 HUF</td>
-	                   <td>Elérhető</td>
-	                   <td><a href="">Adatlap</a></td>
-	               </tr>
-	                <tr>
-	                   <th>Janka</th>
-	                   <td>Kígyó</td>
-	                   <td>2 éves</td>
-	                   <td class="price">101 100 HUF</td>
-	                   <td>Nem elérhető</td>
-	                   <td><a href="">Adatlap</a></td>
-	               </tr>*/
 				   ?>
                </tbody>
                </table>

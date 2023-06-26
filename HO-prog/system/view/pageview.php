@@ -11,7 +11,8 @@ class PageView
 				<meta charset="UTF-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0,">
 				<title>Nyilvántartó Rendszer</title>
-				<link rel="stylesheet" href="res/style.css">
+				<link rel="stylesheet" href="src/style.css">
+				<script src="src/script.js"></script>
 				</head>
 				<body>
 				<header>

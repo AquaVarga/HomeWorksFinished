@@ -21,4 +21,10 @@ public static function Search()
 	require_once 'system/view/template/search.php';
 	\View\PageView::PageEnd();
 	}
+public static function Edit()
+	{
+	\View\PageView::PageBegin();
+	require_once 'system/view/template/edit.php';
+	\View\PageView::PageEnd();
+	}
 }

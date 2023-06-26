@@ -23,7 +23,7 @@ class Req
 			$value = htmlspecialchars($value);
 			return $value;
 		}
-		return null;
+		return null;	
 	}
 	public static function GetPage() 
 	{
