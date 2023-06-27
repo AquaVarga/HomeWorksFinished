@@ -160,6 +160,10 @@ main .button:hover
 {
     background-color: rgb(13,23,33);
 }
+.hidden
+{
+	display: none;
+}
 
 
 

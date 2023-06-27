@@ -10,15 +10,28 @@ switch($page)
 		\Controller\PageController::List();
 		break;
 	case "new":
-		\Controller\PageController::New();
-		\Controller\InsertController::Insert();
+		if(\Controller\InsertController::Insert())
+		{
+			\Controller\PageController::New();
+		}
+		else
+		{
+			\Controller\PageController::New();
+		}
+		
 		break;
 	case "search":
 		\Controller\PageController::Search();
 		break;
 	case "edit":
-		\Controller\PageController::Edit();
-		\Controller\InsertController::Update();
+		if(\Controller\InsertController::Update())
+		{
+			\Controller\PageController::Edit();
+		}
+		else
+		{
+			\Controller\PageController::Edit();
+		}
 		break;
 	case "del":
 		$id = \Model\Animalsmodel::getId();

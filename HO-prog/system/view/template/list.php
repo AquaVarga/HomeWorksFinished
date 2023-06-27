@@ -1,4 +1,5 @@
-          <h1>Regisztrált kisállataink</h1>
+<section class="ListForm">
+<h1>Regisztrált kisállataink</h1>
            <div class="inside">
                 
 	        
@@ -13,7 +14,7 @@
 	                   <th>Színe</th>
 	                   <th>Neme</th>
 	                   <th>Ára</th>
-	                   <th>Születési dátum</th>
+	                   <th>Örökbe fogadás ideje</th>
 	                   <th> </th>
 	               </tr>
 	           </thead>
@@ -31,7 +32,7 @@
 	                   <td>'. $anim->sex .'</td>
 	                   <td class="price">'. number_format($anim->price, 0, "", " ") .' HUF</td>
 	                   <td>'. $anim->date .'</td>
-	                   <td><a href="?page=edit&id='. $anim->id .'" title="Szerkesztés"><i class="h4 fa-							solid fa-square-pen"></i></a></td>
+	                   <td><a href="?page=edit&id='. $anim->id .'" title="Szerkesztés"><i class="fas fa-edit"></i></a></td>
 	                   <td><a href="" title="Törlés" data-bs-toggle="modal" data-bs-target="#delAnim'. $anim->id .'"><i class="h4 fa-solid fa-times text-danger"></i></a>';
 			
 			echo '<div class="modal" id="delAnim'. $anim->id .'">
@@ -56,3 +57,4 @@
                </table>
                </div>
 			   </div>
+ </section>

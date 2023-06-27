@@ -64,7 +64,7 @@ class Animalsmodel
 	public static function GetAnimalsByPref()
 	{
 		$sql = "SELECT * FROM animal";
-		
+		$params = [];
 		if(\Req::Post("name") != NULL)
 		{
 		$sql .= " WHERE name LIKE :name";
@@ -104,8 +104,15 @@ class Animalsmodel
 		$params = ['maxprice' => \Req::Post("maxprice")];
 		}
 		$sql .= " ORDER BY name ASC";
+		if(!$params)
+		{
+			$query = Database::Exec($sql);
+		}
+		else
+		{
+			$query = Database::Exec($sql, $params);
+		}
 
-		$query = Database::Exec($sql, $params);
 		$animals = $query->fetchALL(\PDO::FETCH_CLASS);
 		return $animals;
 		

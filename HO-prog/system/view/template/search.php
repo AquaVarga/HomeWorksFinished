@@ -9,14 +9,14 @@
 	       <table>
 	           <thead>
 	               <tr>
-	                   <th>Neve</th>
-	                   <th>Faja</th>
-	                   <th>Kora</th>
-	                   <th>Súlya</th>
-	                   <th>Színe</th>
-	                   <th>Neme</th>
-	                   <th>Ára</th>
-	                   <th>Születési dátum</th>
+	                   <th>Név</th>
+	                   <th>Faj</th>
+	                   <th>Kor</th>
+	                   <th>Súly</th>
+	                   <th>Szín</th>
+	                   <th>Nem</th>
+	                   <th>Ár</th>
+	                   <th>Örökbe fogadás ideje</th>
 	                   <th> </th>
 	               </tr>
 	           </thead>
@@ -60,7 +60,7 @@
  }
  else 
  {
- \View\SearchView::NewForm();
+	 \View\FormView::SearchForm();
  }
  ?>
                 </div>
